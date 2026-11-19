@@ -55,7 +55,7 @@
           "source": {
             "type": "git",
             "url": "https://github.com/HanX90/turn-model-badge",
-            "commit": "0000000000000000000000000000000000000000"
+            "commit": "db8e7a19d385c9d93d7975710668daec5200161e"
           },
           "engines": {
             "dsh": ">=0.2.2-rc.1 <0.3.0-0"
