@@ -1,0 +1,67 @@
+{
+  "format": 1,
+  "title": {
+    "en": "DeepSeek Harness community plugins",
+    "zh": "DeepSeek Harness 社区插件"
+  },
+  "description": {
+    "en": "A small collection of DeepSeek Harness UI plugins published on GitHub.",
+    "zh": "在 GitHub 上发布的少量 DeepSeek Harness 界面插件。"
+  },
+  "metadata": {
+    "categories": {
+      "ui": {
+        "title": { "en": "Interface", "zh": "界面" }
+      },
+      "conversation": {
+        "title": { "en": "Conversation", "zh": "对话记录" }
+      }
+    },
+    "labels": {
+      "model": {
+        "title": { "en": "Model info", "zh": "模型信息" }
+      },
+      "display-only": {
+        "title": { "en": "Display only", "zh": "纯显示" }
+      }
+    }
+  },
+  "plugins": [
+    {
+      "name": "dsh-turn-model-badge",
+      "title": {
+        "en": "Per-turn model badge",
+        "zh": "每轮模型标签"
+      },
+      "description": {
+        "en": "Shows the model that actually served each completed turn, so a session that switches models stays readable.",
+        "zh": "在每轮已完成的回复下方显示该轮实际使用的模型名，切换过模型的会话也能一眼看清。"
+      },
+      "icon": "https://raw.githubusercontent.com/HanX90/turn-model-badge/main/icon.svg",
+      "author": "HanX90",
+      "homepage": "https://github.com/HanX90/turn-model-badge",
+      "repository": {
+        "url": "https://github.com/HanX90/turn-model-badge"
+      },
+      "metadata": {
+        "category": "conversation",
+        "keywords": ["model", "badge", "conversation", "turn", "ui"],
+        "labels": ["model", "display-only"]
+      },
+      "versions": [
+        {
+          "version": "1.0.0",
+          "publishTimestamp": 1795098301,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/HanX90/turn-model-badge",
+            "commit": "0000000000000000000000000000000000000000"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1 <0.3.0-0"
+          }
+        }
+      ]
+    }
+  ]
+}

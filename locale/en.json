@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Per-turn model badge",
+    "description": "Shows a small pill beside a completed conversation turn's action row, naming the model that actually served that turn; hovering shows the full provider/model routes. The name is read from the per-turn billed attribution already recorded in the session log, so a turn retried on a different route lists every model that served it. Turns without attribution data show no pill rather than a wrong name. Display-only: it adds no tools, commands, or settings page. Turn it off or uninstall it anytime from the Plugins page.",
+    "detail": "docs/DETAIL.md"
+  }
+}
